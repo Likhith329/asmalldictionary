@@ -1,44 +1,42 @@
-.info{
-    margin:50px auto;
-    width: 20%;
-    background-color: lightgrey;
-    
-}
-.pagin{
-    margin:auto;
-    width: 50%;
-   
-    align-items: center;
-}
-
-.info{
+.btns{
     display: flex;
-    flex-direction: column;
 }
 
-li{
-   padding: 10px;
-
-   background-color: peachpuff;
+.content{
+    margin: 50px auto;width: fit-content;
 }
-li:hover{
-    background-color: blue;
+#num{
+    background-color: aqua;
+    border: 1px solid lightblue;
+    padding: 20px;
+}
+#num:hover{
+    background-color: bisque;
 }
 #id{
-font-size: larger;
+    font-size: 25px;
 }
-
 #nam{
-font-size: larger;
+    font-size: 25px;
 }
-
-#job{
-font-size: larger;
+#email{
+    font-size: 25px;
 }
-
-#txt{
-font-size: large;
+.info{
+    width:100%; margin-top: 20px; padding: 10px;
+    display: flex;flex-direction: column;
+    justify-content:space-between;
+    height: 200px; background-color: rgba(21, 204, 204, 0.614);
 }
-#img{
-    border-radius: 125px;
+.pagin{
+    width: max-content;
+}
+#pre,#nxt{
+    background-color: aqua; padding: 20px;
+}
+#pre:hover,#nxt:hover,#num:hover{
+    cursor: pointer;
+}
+#pre:active,#nxt:active,#num:active{
+    background-color: blue;
 }
