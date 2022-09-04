@@ -1,42 +1,19 @@
-.btns{
+#fm{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    margin: 30px ;
+    width: 40%;
+    background-color:rgb(20, 212, 237);
+    border-radius: 10px;
 }
-
-.content{
-    margin: 50px auto;width: fit-content;
+.sbtn{
+    display: flex;
+    justify-content: center;
 }
-#num{
-    background-color: aqua;
-    border: 1px solid lightblue;
-    padding: 20px;
-}
-#num:hover{
-    background-color: bisque;
-}
-#id{
-    font-size: 25px;
-}
-#nam{
-    font-size: 25px;
-}
-#email{
-    font-size: 25px;
-}
-.info{
-    width:100%; margin-top: 20px; padding: 10px;
-    display: flex;flex-direction: column;
-    justify-content:space-between;
-    height: 200px; background-color: rgba(21, 204, 204, 0.614);
-}
-.pagin{
-    width: max-content;
-}
-#pre,#nxt{
-    background-color: aqua; padding: 20px;
-}
-#pre:hover,#nxt:hover,#num:hover{
-    cursor: pointer;
-}
-#pre:active,#nxt:active,#num:active{
-    background-color: blue;
+.sub{
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 5px;
 }
