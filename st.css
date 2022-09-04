@@ -1,0 +1,44 @@
+.info{
+    margin:50px auto;
+    width: 20%;
+    background-color: lightgrey;
+    
+}
+.pagin{
+    margin:auto;
+    width: 50%;
+   
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+   padding: 10px;
+
+   background-color: peachpuff;
+}
+li:hover{
+    background-color: blue;
+}
+#id{
+font-size: larger;
+}
+
+#nam{
+font-size: larger;
+}
+
+#job{
+font-size: larger;
+}
+
+#txt{
+font-size: large;
+}
+#img{
+    border-radius: 125px;
+}
