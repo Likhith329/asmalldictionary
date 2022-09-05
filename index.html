@@ -10,38 +10,37 @@
     <title>Document</title>
 </head>
 <body>
-  <div>
+  <div class="hd" style="display:flex; justify-content: center;"><h1>Enter the details</h1></div>
+  <div class="cont">
   <form id="fm">
-    <div><b>First name</b> :<input type="text" id="fname"></div>
+    <div class="ib"><b>First name</b> :<input type="text" id="fname" class="inp"></div>
 
-    <div><b>Last name</b> :<input type="text" id="lname"></div>
+    <div class="ib"><b>Last name</b> :<input type="text" id="lname" class="inp"></div>
 
-    <div><b>Adress</b> :<input type="text" id="address"></div>
+    <div class="ib"><b>Adress</b> :<input type="text" id="address" class="inp"></div>
 
-    <div><b>Pin code</b> :<input type="tel" id="pin"></div>
+    <div class="ib"><b>Pin code</b> :<input type="tel" id="pin" class="inp"></div>
 
-    <div> <b>Gender</b> :
-      <span id="m"><input name="s" type="radio" id="male" value="Male" onchange="f1()"></span>  Male
-      <span id="fe"><input name="s" type="radio" id="female" value="Female" onchange="f2()"></span> Female
+    <div class="ib"> <b>Gender</b> : <br>
+      <span id="m"><input name="s" type="radio" id="male" value="Male" onchange="f1()"></span>  Male 
+      <span id="fe"><input name="s" type="radio" id="female" value="Female" onchange="f2()"></span> Female 
       <span id="o"><input name="s" type="radio" id="others" value="Others" onchange="f3()"></span> Others
     </div>
 
-   <div> <b>Choice of food</b> : <br>
-    <input type="checkbox" id="food" value="South Indian">South Indian <br>
-    <input type="checkbox" id="food" value="North Indian">North Indian <br>
-    <input type="checkbox" id="food" value="Veg">Veg <br>
-    <input type="checkbox" id="food" value="Non-veg">Non-Veg <br>
+   <div class="ib" > <b>Choice of food</b> : <br>
+    <input type="checkbox" id="food" value="South Indian">South Indian 
+    <input type="checkbox" id="food" value="North Indian">North Indian 
+    <input type="checkbox" id="food" value="Veg">Veg 
+    <input type="checkbox" id="food" value="Non-veg">Non-Veg 
     <input type="checkbox" id="food" value="Chinese">Chinese
   </div> 
 
-    <div><b>State</b> :<input type="text" id="state"></div>
+    <div class="ib"><b>State</b> :<input type="text" id="state" class="inp"></div>
 
-    <div><b>Country</b> : <input type="text" id="cntry"></div>
-
-    <div class="sbtn" id="sbmit"><span class="sub">Submit</span></div>
+    <div class="ib"><b>Country</b> : <input type="text" id="cntry" class="inp"></div> 
     
-
 </form>
+<div class="sbtn" id="sbmit"><span class="sub">Submit</span></div>
 
   <table class="table border" id="tbl">
 
