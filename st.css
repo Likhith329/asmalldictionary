@@ -24,7 +24,7 @@ form{
 
 .rating{
     display: flex;
-    transform:rotateY(180deg) translate(1006px); 
+    transform:rotateY(180deg) translate(1150px); 
 }
 .rating input{
     display: none;
