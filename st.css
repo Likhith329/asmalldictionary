@@ -1,179 +1,45 @@
-form{
-    padding-top: 20px; background-color: rgb(210, 215, 217);
+.card-body{
+    text-align: center;
 }
-.name{
-    margin-left:20px ;
+.bt{
+    margin: 50px; margin-left: 500px;
 }
-.boxes{
-    display: flex; margin: 20px ; margin-top: 0;
-}
-.box2{
-    margin-left: 30px;  
-}
-.email{
-    margin-left: 20px;
-}
-.emailbox{
-    margin: 20px; margin-top: 0; width: 410px;
-}
-.exp{
-    margin-left: 20px;
+.card-header{
+    text-align: center ;
 }
 
-
-.rating{
-    display: flex;
-    /*transform:rotateY(180deg) translate(1006px); */
-    transform: rotateY(180deg) ; transform-origin: 130px;
+img{
+    padding: 20px; padding-bottom: 0;
+    width: 100px; height: 300px;
 }
-.rating input{
+.card{
+    background-image: linear-gradient(to right,rgba(217,200,162,255),rgba(34,63,74,255));
+    color: white;
+}
+.card-body{
+    font-size: 25px;
+}
+.btn-primary{
+    color: white!important;
+    border: 1px solid white!important;
+    background-color: rgb(0,0,0,0)!important;
+}
+.info1,.info2,.info3{
+    text-align: center;
     display: none;
-}
-.rating label{
-    display:block ;
-    width: 50px;
-}
-.rating label:before{
-    content:'\f005'; position: relative;
-    font-family: "FontAwesome"; 
-    font-size: 40px; color:white;
-}
-.rating label:after{
-    content:'\f005'; 
-    font-family: "FontAwesome";
-    font-size: 40px; color: yellow;
-    position: relative; opacity: 0; left: -45px;
-}
-.rating label:hover:after, 
-.rating label:hover ~ label:after,
-.rating input:checked ~ label:after{
-    opacity: 1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1fIEdG0Bn4S8V3BWYWRcwPZkExpFbsGN-9w&usqp=CAU");
 }
 
-.text{
-    margin-left: 20px; font-size: large; font-family: serif;
+.temp{
+    font-size:50px;
+}
+.feelslike{
+    font-size:30px;
+}
+.description{
+    font-size: 30px;
+}
+.windspeed{
+    font-size: 30px;
 }
 
-.message{
-    width: 500px; height: 100px; margin-left: 20px;
-}
-
-.tablemessage{
-    margin-left: 20px;
-}
-.table{
-    margin: 20px; margin-top: 0;
-}
-
-input[type=radio]{
-    height: 20px;
-    width: 20px; 
-}
-
-.area{
-    margin-left: 20px; width: 100%; height:100px;
-}
-
-.button{
-    margin:10px; margin-left: 20px;
-}
-.but button{
-    padding: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-form{
-    padding-top: 20px; background-color: rgb(210, 215, 217);
-}
-.name{
-    margin-left:20px ;
-}
-.boxes{
-    display: flex; margin: 20px ; margin-top: 0;
-}
-.box2{
-    margin-left: 30px;  
-}
-.email{
-    margin-left: 20px;
-}
-.emailbox{
-    margin: 20px; margin-top: 0; width: 410px;
-}
-.exp{
-    margin-left: 20px;
-}
-
-
-.rating{
-    display: flex;
-    /*transform:rotateY(180deg) translate(1006px); */
-    transform: rotateY(180deg) ; transform-origin: 130px;
-}
-.rating input{
-    display: none;
-}
-.rating label{
-    display:block ;
-    width: 50px;
-}
-.rating label:before{
-    content:'\f005'; position: relative;
-    font-family: "FontAwesome"; 
-    font-size: 40px; color:white;
-}
-.rating label:after{
-    content:'\f005'; 
-    font-family: "FontAwesome";
-    font-size: 40px; color: yellow;
-    position: relative; opacity: 0; left: -45px;
-}
-.rating label:hover:after, 
-.rating label:hover ~ label:after,
-.rating input:checked ~ label:after{
-    opacity: 1;
-}
-
-.text{
-    margin-left: 20px; font-size: large; font-family: serif;
-}
-
-.message{
-    width: 500px; height: 100px; margin-left: 20px;
-}
-
-.tablemessage{
-    margin-left: 20px;
-}
-.table{
-    margin: 20px; margin-top: 0;
-}
-
-input[type=radio]{
-    height: 20px;
-    width: 20px; 
-}
-
-.area{
-    margin-left: 20px; width: 100%; height:100px;
-}
-
-.button{
-    margin:10px; margin-left: 20px;
-}
-.but button{
-    padding: 10px;
-}
