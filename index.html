@@ -11,29 +11,73 @@
   <title>Document</title>
 </head>
 <body>
-    <div class="mainContainer">
-      <div class="top">
-        <input type="number" placeholder="Enter the number">
-        <button class="btn btn-primary">Submit</button>
+  <div class="container">
+    <div class="row">
+  <div class="col-lg-4 col-sm-12">
+  <div class="card one">
+    <div class="card-header bg-dark" id="name1"></div>
+    <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3GHzt56eC1n3YzkdEWGq-3nouWjW2bo3Bg&usqp=CAU" alt="">
+    <div class="card-body">
+        <div >Capital: <span class="capital1"></span></div>
+        <div >Region: <span class="region1"></span></div>
+        <div >Country code: <span class="countrycode1"></span></div>
+        <button class="btn btn-primary" onclick="fun1()"> Click for weather</button>
+        
       </div>
- 
+      <div class="info1">
+        <div >Temperature: <span class="temp"></span></div>
+        <div >feels like: <span class="feelslike"></span></div>
+        <div >description: <span class="description"></span></div>
+        <div >wind speed: <span class="windspeed"></span></div>
+        <button class="btn btn-primary" onclick="hidebtn('info1')">Hide</button>
+      </div>
+      
+    </div></div>
 
-      <table class="table border">
-        <thead>
-          <th><b>Name</b></th>
-          <th><b>Branch type</b></th>
-          <th><b>Area</b></th>
-          <th><b>Division</b></th>
-          <th><b>District</b></th>
-          <th><b>State</b></th>
-        </thead>
+  <div class="col-lg-4 col-sm-12">
+    <div class="card two">
+      <div class="card-header bg-dark" id="name2"></div>
+      <img  class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3GHzt56eC1n3YzkdEWGq-3nouWjW2bo3Bg&usqp=CAU" alt="">
+      
+        <div class="card-body">
+          <div >Capital: <span class="capital2"></span></div>
+          <div >Region: <span class="region2"></span></div>
+          <div >Country code: <span class="countrycode2"></span></div>
+          <button class="btn btn-primary" onclick="fun2()">Click for weather</button>
+        </div>
 
-        <tbody class="tbody">
-         
-        </tbody>
+    <div class="info2">
+        <div >Temperature: <span class="temp"></span></div>
+        <div >feels like: <span class="feelslike"></span></div>
+        <div >description: <span class="description"></span></div>
+        <div >wind speed: <span class="windspeed"></span></div>
+      <button class="btn btn-primary" onclick="hidebtn('info2')">Hide</button>
+    </div>
+  </div></div>
 
-      </table>
-    </div>                   
+    <div class="col-lg-4 col-sm-12">
+      <div class="card three">
+        <div class="card-header bg-dark" id="name3"></div>
+        <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3GHzt56eC1n3YzkdEWGq-3nouWjW2bo3Bg&usqp=CAU" alt="">
+        <div class="card-body">
+          <div >Capital: <span class="capital3"></span></div>
+          <div >Region: <span class="region3"></span></div>
+          <div >Country code: <span class="countrycode3"></span></div>
+          <button class="btn btn-primary" onclick="fun3()">Click for weather</button>
+        </div>
+        <div class="info3">
+            <div >Temperature: <span class="temp"></span></div>
+        <div >feels like: <span class="feelslike"></span></div>
+        <div >description: <span class="description"></span></div>
+        <div >wind speed: <span class="windspeed"></span></div>
+          <button class="btn btn-primary" onclick="hidebtn('info3')">Hide</button>
+        </div>
+      </div></div>
+    </div>
+    <div class="bt"><button class="btn btn-secondary">Click here to get random country data</button></div>
+  </div>
+
+  
   <script src="script.js"></script>
 </body>
 </html>
