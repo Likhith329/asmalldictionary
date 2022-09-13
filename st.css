@@ -1,46 +1,19 @@
-.card-body{
-    text-align: center;
+body{
+    background-image: linear-gradient(to top right,rgb(139, 119, 119),rgb(167, 227, 167));}
+.container{
+    background-image: linear-gradient(rgb(142, 70, 70),rgb(71, 71, 148));
 }
-.bt{
-    display: flex;
-    justify-content: center;
-    margin: 50px; 
+.name{
+    margin: 10px;
+    border-radius: 5px;
+    font-family:cursive;
 }
-.card-header{
-    text-align: center ;
-}
-
-img{
-    padding: 20px; padding-bottom: 0;
-    width: 100px; height: 300px;
-}
-.card{
-    background-image: linear-gradient(to right,rgba(217,200,162,255),rgba(34,63,74,255));
-    color: white;
-}
-.card-body{
-    font-size: 25px;
-}
-.btn-primary{
-    color: white!important;
-    border: 1px solid white!important;
-    background-color: rgb(0,0,0,0)!important;
-}
-.info1,.info2,.info3{
-    text-align: center;
-    display: none;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1fIEdG0Bn4S8V3BWYWRcwPZkExpFbsGN-9w&usqp=CAU");
+.comment{
+    margin: 10px; color: white;
+    font-size: 20px; border-radius: 20px; background-image: linear-gradient(rgb(142, 70, 70),rgb(71, 71, 148));
 }
 
-.temp{
-    font-size:50px;
-}
-.feelslike{
-    font-size:30px;
-}
-.description{
-    font-size: 30px;
-}
-.windspeed{
-    font-size: 30px;
+
+textarea::placeholder{
+font-size: 30px; color: white;
 }
