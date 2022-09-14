@@ -1,27 +1,25 @@
-var info={
-    name:"",
-    text:""
+async function fun1(){
+    let urldata= await fetch("https://random.dog/woof.json")
+    let fetcheddata=await urldata.json()
+    try {
+        let imagedata=document.querySelector(".image")
+    imagedata.setAttribute("src",fetcheddata.url)
+    } catch (error) {
+        let videodata=document.querySelector(".video")
+        videodata.setAttribute("src",fetcheddata.url)
+    }
+    
+    
 }
-
-let btndata=document.querySelector(".btn")
-btndata.addEventListener("click",()=>{
-    let namedata=document.querySelector(".name").value
-   let textdata=document.querySelector(".comment").value
-   info.name=namedata;
-   info.text=textdata;
-   if(info.name!='' && info.text!='' ){
-   createdata(info)}
-   else{
-   alert("Yoohh Chooskoobadleee!!!!!!!")
-}
-})
-
-async function createdata(info){
-
-    const fetcheddata=await fetch("https://6320863c9f82827dcf2ec213.mockapi.io/comments",{
-        method:'POST',
-        body:JSON.stringify(info),
-        headers:{"Content-Type":"application/json"},
-    } )
-    window.confirm("Posted successfully")
+async function fun2(){
+    let urldata= await fetch("https://aws.random.cat/meow")
+    let fetcheddata=await urldata.json()
+    try {
+        let imagedata=document.querySelector(".image")
+    imagedata.setAttribute("src",fetcheddata.file)
+    } catch (error) {
+        let videodata=document.querySelector(".video")
+        videodata.setAttribute("src",fetcheddata.file)
+    }
+    
 }
